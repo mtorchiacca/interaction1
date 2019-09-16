@@ -1,0 +1,32 @@
+
+body {
+  background: #FFD700;
+    color: grey;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+    #toc {
+      position: fixed;
+      top: 1em;
+      left: 1em;
+      /* a background color might help it be differentiated from the rest */
+      background: white;
+      /* that means you'll have to change the color of the text */
+      color: #587E20;
+      /* some padding might make it look better */
+      padding: 1em;
+      /* maybe making the font size here smaller will help too */
+      font-size: 0.7em;
+    }
+
+
+    #toc a {
+      color: #587E20;
+      text-decoration: none;
+    }
+
+    #toc a:hover {
+      color: black;
+    }
