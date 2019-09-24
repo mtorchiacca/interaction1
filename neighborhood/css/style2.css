@@ -1,12 +1,10 @@
 a {
 color: grey;
-font-family: 'Candal', sans-serif;
 }
 
 a:hover {
   color: pink;
   border-bottom: none;
-  font-family: 'Candal', sans-serif;
 }
 
 p {width: 50%;
