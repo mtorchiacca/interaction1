@@ -5,9 +5,6 @@ color: black;
 a:hover {
   color: pink;
   border-bottom: none;
-  margin: 40px;
-  font-family: "Open Sans Condensed", sans-serif;
-  text-align: center;
 }
 
 p {width: 50%;
@@ -92,6 +89,10 @@ ul {
       font-size: 0.9em;
       color: pink;
     }
+
+    #grad {
+  background-image: linear-gradient(red, yellow);
+}
 
 
 /*notcurrentlt working*/
