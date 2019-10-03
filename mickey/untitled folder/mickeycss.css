@@ -1,0 +1,119 @@
+body { background: grey;}
+
+
+#canvas div {
+  border-radius: 200px;
+  position: absolute;
+}
+
+
+#circle {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 100%;
+  bottom: 100%;
+  background: purple;
+  margin: 50px;
+
+}
+/*not working*/
+
+
+#foot-2 {
+width: 100px;
+height: 100px;
+background: yellow;
+top: 40%;
+bottom: 40%;
+background: white;
+margin-left: 160px;
+margin-top: 220px;
+}
+
+
+#eye-1 {
+  width: 25px;
+  height: 25px;
+  margin-left: 200px;
+  margin-top: 250px;
+  background: black;
+}
+
+#eye-2 {
+  width: 25px;
+  height: 25px;
+  margin-left: 170px;
+  margin-top: 170px;
+  background: black;
+}
+
+
+/*GLITCH CODE FOR PULSE*/
+.animation-pulse {
+  -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: pulse;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
+}
+
+/* Standard syntax */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
+}
+
+
+
+
+
+#nose {
+  width: 45px;
+  height: 45px;
+  background: black;
+}
+
+#head {
+  width: 140px;
+  height: 140px;
+  margin-left: 100px;
+  margin-top: 130px;
+  background: white;
+}
+
+
+
+#ear-1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  background: white;
+  margin-left: 300px;
+}
+
+
+#ear-2 {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  background-color: red;
+  top: 50%;
+  bottom: 50%;
+  margin-left:  150px;
+  border: 4px solid white;
+}

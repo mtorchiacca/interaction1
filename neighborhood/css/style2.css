@@ -1,5 +1,5 @@
 a {
-color: grey;
+color: black;
 }
 
 a:hover {
@@ -7,20 +7,32 @@ a:hover {
   border-bottom: none;
 }
 
-p {width: 50%;
+/*p {
+  width: 80%;
   margin: 40px;
-  margin-bottom: 50px;
+  font-size: 40px;
+  margin-bottom: 100px;
   margin-top: 50px;
   font-family: "Open Sans Condensed", sans-serif;
   text-align: left;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
+p {
+  display: block;
+  color: black;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 li {
 font-family: 'Candal', sans-serif;
-
+margin-bottom: 10px;
 }
 
 .center-align {
@@ -31,27 +43,26 @@ font-family: 'Candal', sans-serif;
 
 h2, h3, h4, pre, code {
 font-family: 'Candal', sans-serif;
-font-size: 24px;
-width: 50%;
-margin: 310px;
+font-size: 40px;
+width: 80%;
+margin-left: 100px;
+margin-right: 100px;
 margin-bottom: 50px;
 margin-top: 50px;
   }
 
 h1 {
+  color: black;
 font-family: 'Candal', sans-serif;
-font-size: 30px;
-width: 50%;
+font-size: 50px;
+width: 100%;
 margin: 40px;
 margin-bottom: 50px;
 margin-top: 50px;
   }
 
 
-
-
-
-  .center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -60,12 +71,23 @@ margin-top: 50px;
 
 body {
   background: #fadadd;
-  color: grey;
+  color: black;
   font-size: 22px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 /*typed in class*/
+
+.hello {
+  display: block;
+  margin-left: 35px;
+  margin-right: 300px;
+  margin-bottom: 150px;
+
+}
+
+
+]
 
 ul {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -74,12 +96,14 @@ ul {
   -webkit-font-smoothing: antialiased;
 }
 
+
+/*table of contents*/
     #toc {
       position: fixed;
       top: 1em;
       left: 54em;
       /* a background color might help it be differentiated from the rest */
-      background: white;
+      background: ;
       /* that means you'll have to change the color of the text */
       color: #587E20;
       /* some padding might make it look better */
@@ -94,15 +118,27 @@ ul {
 }
 
 
+
+
 /*notcurrentlt working*/
     imagery-block { opacity: 0.5;
       filter: alpha (opacity=50); /* For IE8 and earlier */
+      margin-bottom: 350px;
     }
 
     imagery-block:hover {
     color:purple;
+    margin-bottom: 350px;
+
+
+  }
+
+  center {
+    margin-bottom: 300px;
+
   }
 
     #imagery-block {
-      color:purple;
+      margin-bottom: 300px;
+      color: purple;
     }
