@@ -1,12 +1,36 @@
+body {
+  background-color: lightgreen;
+}
+
 h1 {
 font-size: 50px;
-font-family: 'DM Serif Display', serif;
+font-family: 'Darker Grotesque', sans-serif;
+margin-bottom: 2%;
+margin-top: 0%;
+margin-left: 2%;
 }
 
 
 .desc {
   font-size: 24px;
   font-family: 'Darker Grotesque', sans-serif;
-  margin-bottom: 50px;
-margin-top: 50px;
+  margin-bottom: -1%;
+  margin-top: -2%;
+  margin-left: 2%;
+}
+
+h3 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 40px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+#projects {
+  font-size: 20px;
+  font-family: 'Darker Grotesque', sans-serif;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  margin-left: 3%;
 }
