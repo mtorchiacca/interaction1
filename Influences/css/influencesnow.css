@@ -84,6 +84,24 @@ ui {
   margin-top: 0%;
 }
 
+body {
+  background: #fadadd;
+  color: black;
+  font-size: 1em;
+  font-family: "Be Vietnam", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  display: block;
+  color: black;
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 
 
 }
