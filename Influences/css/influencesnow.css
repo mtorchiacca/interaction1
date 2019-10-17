@@ -1,4 +1,89 @@
+
+
+
+/*table of contents*/
+    #toc {
+      display: block;
+      position: fixed;
+      padding: 1em;
+      padding-left: 1em;
+      margin-left: 0em;
+      padding-right: 1000em;
+      margin-bottom: 1em;
+      margin-top: 1em;
+      box-sizing: 1em;
+      border-box;
+      /* a background color might help it be differentiated from the rest */
+      background: ;
+      /* that means you'll have to change the color of the text */
+      color: #00005;
+      /* some padding might make it look better */
+
+      /* maybe making the font size here smaller will help too */
+      font-size: .6em;
+      line-height: 2em;
+      font-family: 'Be Vietnam', sans-serif;
+      font-weight: 600;
+      -webkit-font-smoothing: antialiased;
+    }
+
+
+
+    div {
+        display: block;
+    }
+
+    #container {
+  //*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*//
+  display: block;
+  margin-left: 1%;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: auto;
+
+}
+
+
+    #grad {
+  background-image: linear-gradient(red, yellow);
+}
+
 a {
-color: black;
-font-family: 'Candal', sans-serif;
+  color: red;
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: purple;
+  font-family: Be Vietnam, sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  max-width: none;
+    margin-block-start: .2em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+ui {
+  color: pink;
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 0em;
+  line-height: 1em;
+  margin-top: 900em;
+  margin-right: 0%;
+  margin-top: 0%;
+}
+
+
+
 }
