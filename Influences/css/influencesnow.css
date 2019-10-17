@@ -5,12 +5,12 @@
     #toc {
       display: block;
       position: fixed;
-      padding: 1em;
-      padding-left: 1em;
+      padding: 2em;
+      padding-left: 2em;
       margin-left: 0em;
       padding-right: 1000em;
-      margin-bottom: 1em;
-      margin-top: 1em;
+      margin-bottom: 0em;
+    margin-top: -1em;
       box-sizing: 1em;
       border-box;
       /* a background color might help it be differentiated from the rest */
@@ -75,7 +75,7 @@ h1 {
 ui {
   color: pink;
   font-family: 'Be Vietnam', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.0em;
   -webkit-font-smoothing: antialiased;
   padding-left: 0em;
   line-height: 1em;
@@ -93,14 +93,42 @@ body {
 }
 
 p {
-  display: block;
-  color: black;
+    display: block;
+    color: darkorange;
     margin-block-start: 3em;
     margin-block-end: 3em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin-left: 30%;
     margin-right: 30%;
+    font-size: 2em;
+    font-family: "Be Vietnam", sans-serif;
+}
+
+.center {
+    width: 40em;
+    height: 40em;
+    margin: 0;
+    margin-top: 20em;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 60em;
+
+}
+
+  .left {
+    float: left;
+    width: 100%;
+    max-width: 40em;
+    margin-top: 20em;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 30em;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 400;
+    font-size: .4em;
+    color: green;
+
 }
 
 
