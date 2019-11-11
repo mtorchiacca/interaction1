@@ -1,0 +1,198 @@
+/* CSS files add styling rules to your content */
+
+
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: helvetica neue, sans-serif;
+  /*color: #373fff;*/
+  color: purple;}
+
+
+.sitetitle {
+    display: block;
+    visibility: visible;
+    font-family: helvetica neue,sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1em;
+    letter-spacing: 0em;
+    line-height: 1;
+    color: red;
+    text-decoration: none;
+    white-space: nowrap;
+    z-index: 20;
+}
+
+.sitetitle:hover {
+  opacity: 10;
+  color: purple;
+transition: opacity 3s,
+}
+/*flex direction: column??*/
+/*Position absolute (makes it own layer), Position fixed, Position relative*/
+/*only text in P tag.
+
+/* iPhone X*/
+@media (min-width: 375px) and (max-width: 812px) {
+  body {
+    background: red;
+  }
+
+  //#grid-container {
+    /*background: rgba(0,0,0,.15);*/
+    background: white;
+    display: grid;
+    grid-template-columns: 1800px;
+    grid-template-rows: 1800px 1800px;
+    grid-row-gap: 4px;
+    grid-column-gap: 2px;
+  }
+
+  .grid-item {
+    background: rgba(0,0,0,.25);
+    grid-column-start: 0;
+    grid-column-end: 12;
+    grid-row-start: 0;
+    grid-row-end: 12;
+  }
+
+  #item-1 {
+    background: rgba(0,0,0,.15);
+    border: 2px solid red;
+    grid-column-start: 0;
+    grid-column-end: 1;
+  }
+
+  #item-1:hover {
+    background: purple;
+    opacity: 50%;
+    border: 2px solid red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    transition: opacity 3s,
+  }
+
+  #item-2 {
+    background: url("file:///Users/Michael/Documents/GitHub/interaction1/past/assets/wiggle3.jpg");
+    background-size: contain;
+    background-color: black;
+    border: 2px solid orange;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: auto;
+    height: auto;
+    transition: opacity 1s;
+    background-position: center;
+  background-repeat: no-repeat;
+
+  }
+
+  #item-2:hover, #item-2:hover span {
+    font-family: helvetica neue, sans-serif;
+    font-size: 100%;
+    /*color: #373fff;*/
+    color: purple;
+
+    background: orange; 80%;
+    background-size: cover;
+    opacity: 20%;
+    border: 2px solid red;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: auto;
+    height: 100%;
+    transition: opacity 1s;
+    background-position: center;
+
+  }
+
+
+}
+
+/* iPad */
+@media (min-width: 768px) and (max-width: 1280px) {
+  body {
+    background: blue;
+  }
+  #grid-container {
+    /*background: rgba(0,0,0,.15);*/
+    background: white;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 200px 100px;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+  }
+
+  .grid-item {
+    background: rgba(0,0,0,.25);
+  }
+
+  #item-1 {
+    background: rgba(0,0,0,.15);
+    border: 2px solid red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  #item-1:hover {
+    background: purple;
+    opacity: 50%;
+    border: 2px solid red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    transition: opacity 3s,
+  }
+
+  #item-2 {
+    background: url("file:///Users/Michael/Documents/GitHub/interaction1/past/assets/wiggle3.jpg");
+    background-size: contain;
+    background-color: black;
+    border: 2px solid orange;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: auto;
+    height: auto;
+    transition: opacity 1s;
+    background-position: center;
+  background-repeat: no-repeat;
+
+  }
+
+  #item-2:hover, #item-2:hover span {
+    font-family: helvetica neue, sans-serif;
+    font-size: 125%;
+    /*color: #373fff;*/
+    color: purple;
+
+    background: orange; 80%;
+    background-size: cover;
+    opacity: 20%;
+    border: 2px solid red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: auto;
+    height: 100%;
+    transition: opacity 1s;
+    background-position: center;
+
+  }
+
+
+}

@@ -1,7 +1,7 @@
 
 
 
-/*table of contents*/
+/*table of contents*still missing miagrey */
     #toc {
       display: block;
       position: fixed;
@@ -10,7 +10,7 @@
       margin-left: 0em;
       padding-right: 1000em;
       margin-bottom: 0em;
-    margin-top: -1em;
+      margin-top: -1em;
       box-sizing: 1em;
       border-box;
       /* a background color might help it be differentiated from the rest */
@@ -85,7 +85,9 @@ ui {
 }
 
 body {
+  position: relative;
   background: #fadadd;
+  background: linear-gradient(to bottom, #fbdee0 0%, #fdb7bd 100%);
   color: black;
   font-size: 1em;
   font-family: "Be Vietnam", sans-serif;
@@ -93,16 +95,19 @@ body {
 }
 
 p {
-    display: block;
-    color: darkorange;
-    margin-block-start: 3em;
-    margin-block-end: 3em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-left: 30%;
-    margin-right: 30%;
-    font-size: 2em;
-    font-family: "Be Vietnam", sans-serif;
+  display: block;
+  color: purple;
+  padding: 1em;
+  margin-block-start: 24em;
+  margin-block-end: 3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 55%;
+  margin-right: 5%;
+  margin-bottom: 60%;
+  font-size: 2.5em;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 600;
 }
 
 .center {
@@ -131,5 +136,28 @@ p {
 
 }
 
+
+
+.lefty {
+opacity: 0.5;
+transition: opacity 1s, background 1s;
+  float: left;
+  width: 100%;
+  max-width: 60em;
+  margin-top: 1em;
+  margin-right: -90px;
+  margin-bottom: 0px;
+  margin-left: 14em;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 400;
+  font-size: .4em;
+  color: green;
+
+}
+
+.lefty:hover {
+  opacity: 1;
+  transition: opacity 1s, background 1s;
+  background: #EBEFF7;
 
 }
